@@ -1,0 +1,16 @@
+Inicio
+
+Var vaA, vaB, vaAux
+
+leia vaA
+leia vaB
+
+vaAux <- vaA
+vaA <- vaB
+vaB <- vaAux
+deletar vaAux
+
+escreva "O novo valor de A agora é: ", + vaA
+escreva "O novo valor de B agora é: ", + vaB
+
+Fim

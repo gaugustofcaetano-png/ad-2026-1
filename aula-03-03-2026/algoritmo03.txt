@@ -1,0 +1,16 @@
+Inicio
+
+Var nome, salario, vendasTotal, comissao, salarioFinal
+
+escreva "Informe seu nome: ", nome
+escreva "Informe seu salario: ", salario
+escreva "Informe suas vendas totais: ", vendasTotal
+
+comissao = vendasTotal * 0.15
+salarioFinal = comissao + salario
+
+escreva "Nome: ", + nome
+escreva "Salário: " + salario
+escreva "Sua salário com comissão é de: ", + salarioFinal
+
+Fim
