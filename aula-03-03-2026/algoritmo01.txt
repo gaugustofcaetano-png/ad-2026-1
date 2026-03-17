@@ -1,18 +1,21 @@
 Inicio
 
-Var nome, p1, p2, p3, soma, media
+Var 
+nome: Literal ou caractere
+p1, p2, p3, soma, media: Real
 
-escreva "Informe o Nome: " (nome)
-escreva "Informe a nota da primeira prova: " (p1)
-escreva "Informe a nota da segunda prova: " (p2)
-escreva "Informe a nota da terceira prova: " (p3)
+escreva "Informe o Nome: "
+escreva "Informe a nota da primeira prova: "
+escreva "Informe a nota da segunda prova: "
+escreva "Informe a nota da terceira prova: "
 
+leia nome
 leia p1
 leia p2
 leia p3
 
-soma = p1 + p2 + p3
-media = soma / 3
+soma <- p1 + p2 + p3
+media <- soma / 3
 
 escreva "Nome: ", + nome
 escreva "Sua média é: ", + media
