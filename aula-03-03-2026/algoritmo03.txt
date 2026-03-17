@@ -1,10 +1,12 @@
 Inicio
 
-Var nome, salario, vendasTotal, comissao, salarioFinal
+Var 
+nome: Literal ou caractere
+salario, vendasTotal, comissao, salarioFinal: Real
 
-escreva "Informe seu nome: ", (nome)
-escreva "Informe seu salario: ", (salario)
-escreva "Informe suas vendas totais: ", (vendasTotal)
+escreva "Informe seu nome: ", + nome
+escreva "Informe seu salario: ", + salario
+escreva "Informe suas vendas totais: ", + vendasTotal
 
 comissao = vendasTotal * 0.15
 salarioFinal = comissao + salario
