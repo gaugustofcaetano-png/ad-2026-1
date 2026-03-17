@@ -8,8 +8,8 @@ escreva "Informe seu nome: ", + nome
 escreva "Informe seu salario: ", + salario
 escreva "Informe suas vendas totais: ", + vendasTotal
 
-comissao = vendasTotal * 0.15
-salarioFinal = comissao + salario
+comissao <- vendasTotal * 0.15
+salarioFinal <- comissao + salario
 
 escreva "Nome: ", + nome
 escreva "Salário: " + salario
