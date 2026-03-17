@@ -1,9 +1,10 @@
 Inicio
 
-Var vaA, vaB, vaAux
+Var 
+vaA, vaB, vaAux: Real
 
-leia vaA
-leia vaB
+leia ("Digite o valor de A: ") + vaA
+leia ("Digite o valor de B: ") + vaB
 
 vaAux <- vaA
 vaA <- vaB
